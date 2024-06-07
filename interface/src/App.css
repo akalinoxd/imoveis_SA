@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html, body, #root{
+    height: 100%;
+    width: 100%;
+} */
+
+* {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.formInput {
+    width: 240px;
+    box-sizing: border-box;
+}

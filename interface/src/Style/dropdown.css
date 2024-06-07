@@ -1,0 +1,28 @@
+#usuario {
+    min-width: 137px;
+}
+
+#usuario:hover{
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover #usuario{
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 137px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
